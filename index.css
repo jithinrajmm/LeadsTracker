@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+body,html{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100%;    */
+    min-width:400px;
+    
+    
+}
+.bg{
+    background-image: url('https://cdn.pixabay.com/photo/2016/07/05/16/53/leaves-1498985_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    height: 100%;
+    /* min-width: 500px; */
+}
+#save-el{
+    background-color: transparent;
+    border: solid 2px rgb(6, 245, 6);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-weight: bold;
+}
+#del-el{
+  background-color: transparent;
+  border: solid 2px rgb(6, 245, 6);
+  color:rgb(245, 9, 9);
+  font-weight: bold;
+  padding: 10px ;
+}
+#input-el{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
+    border-color: #052105;
+    background-color: #aae896;
+    border-width: medium medium;
+}
+li{
+    list-style-type: none;
+    margin-left: 5px;
+    color:white;
+    margin-top: 2px;
+    max-width: 100%;
+    overflow: hidden;
+}
+li a{
+    color: rgb(243, 243, 243);
+    font-size: 20PX;
+    font-style: italic;
+    text-decoration:dotted;
+    font-family: 'Lobster', cursive;
+    
+
+    
+  
+    
+     
+  }
+  
+  /* visited link 
+  a:visited {
+    color: white;
+  }*/
+  
+  /* mouse over link */
+  li a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link 
+  a:active {
+    color: blue;
+  } */
+  h1{
+    text-align:right;
+    color: aliceblue;
+    font-family: 'Dancing Script';
+    background: linear-gradient(to right, rgb(43, 245, 7) 25% ,rgb(225, 241, 6) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+
+    
+  }
+
